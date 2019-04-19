@@ -217,4 +217,15 @@ class DateParser
     {
         return is_numeric($number) && ctype_digit(((string)$number));
     }
+
+    /**
+     * 实例化对象
+     *
+     * @param string $dateFormula
+     * @return static
+     */
+    public static function instance($dateFormula)
+    {
+        return new static($dateFormula);
+    }
 }

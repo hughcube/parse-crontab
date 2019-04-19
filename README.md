@@ -1,6 +1,6 @@
 <h1 align="center"> parse-crontab </h1>
 
-parse-crontab [![Build Status](https://travis-ci.com/hughcube/parse-crontab.svg?branch=1.0)](https://travis-ci.com/hughcube/parse-crontab)
+parse-crontab [![Build Status](https://travis-ci.com/hughcube/parse-crontab.svg?branch=master)](https://travis-ci.com/hughcube/parse-crontab)
 
 
 ## Installing
