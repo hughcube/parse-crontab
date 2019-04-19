@@ -1,6 +1,6 @@
 <h1 align="center"> parse-crontab </h1>
 
-bindKeyValue trait [![Build Status](https://travis-ci.com/hughcube/hughcube/parse-crontab.svg?branch=master)](https://travis-ci.com/hughcube/parse-crontab)
+parse-crontab [![Build Status](https://travis-ci.com/hughcube/hughcube/parse-crontab.svg?branch=master)](https://travis-ci.com/hughcube/parse-crontab)
 
 
 ## Installing
