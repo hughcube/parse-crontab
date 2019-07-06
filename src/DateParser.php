@@ -2,7 +2,9 @@
 
 namespace HughCube\Crontab\Parse;
 
-class DateParser
+use HughCube\StaticInstanceInterface;
+
+class DateParser implements StaticInstanceInterface
 {
 
     # Example of job definition:
@@ -224,7 +226,7 @@ class DateParser
      * @param string $dateFormula
      * @return static
      */
-    public static function instance($dateFormula)
+    public static function instance($dateFormula = '* * * * *')
     {
         return new static($dateFormula);
     }
